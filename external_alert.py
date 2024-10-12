@@ -144,7 +144,7 @@ def save_csv(result):
 
 
 def main():
-    # 取得範囲: [前月の1日,前月の末日)
+    # 取得範囲: [前月の1日,前月の末日]
     today = datetime.now(zoneinfo.ZoneInfo("Asia/Tokyo"))
     first_day_of_this_month = today.replace(
         day=1, hour=0, minute=0, second=0, microsecond=0
